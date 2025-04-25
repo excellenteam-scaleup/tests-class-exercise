@@ -2,7 +2,7 @@
 
 import unittest
 from unittest.mock import patch, Mock
-from Tests.inarow import FourInARow
+from inarow import FourInARow
 
 class TestGame(unittest.TestCase):
     @classmethod
