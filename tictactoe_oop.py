@@ -1,6 +1,7 @@
 # To Do -
-# Create a separate test file. Remember to import unittest
-# Create a test suite in the new file, and make sure you can run an empty test
+# install pytest
+# Create a separate test file. Remember to import pytest.
+# Create an empty test and run it, just to make sure your setup is working.
 # Write multiple unittests for Board.check_winner that tests all the edge cases - make sure to test all win cases
 # Write a function that tests "TicTacToeGame" and checks that every turn, the Board::check_winner is being called exactly once
 # Write a system test for the entire game. Youll have to mock TicTacToeGame::get_move to do so.
